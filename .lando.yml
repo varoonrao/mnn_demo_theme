@@ -1,0 +1,4 @@
+name: drupaltheme
+recipe: drupal8
+config:
+  webroot: web

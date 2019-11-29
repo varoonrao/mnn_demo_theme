@@ -1,0 +1,21 @@
+global-styling:
+   version: 1.0
+   css:
+    theme:
+      css/base/variables.css : {}
+      css/base/reset.css : {}
+      css/components/barnding.css : {}
+      css/components/main_navigation.css : {}
+      css/layout/footer.css : {}
+      css/layout/header.css : {}
+      css/layout/content.css : {}
+      css/layout/featured.css : {}
+      css/components/menu.css : {}
+      css/base/typography.css : {}
+
+   js:
+     #js/your_js.js : {}
+     js/script.js : {}
+   dependencies:
+     - core/jquery
+

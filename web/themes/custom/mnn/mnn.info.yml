@@ -1,0 +1,24 @@
+name: mnn
+type: theme
+description: 'mnn theme by Varun'
+package: Other
+core: 8.x
+libraries:
+  - mnn/global-styling
+  - mnn/n
+ 
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  branding: Branding
+  main_navigation: Main navigation
+  nav_right: Navigation Right
+  featured: Featured
+  content: Content
+  right_sidebar: Right sidebar
+  footer_first: Footer first
+  footer_second: Footer second
+  footer_third: Footer third
+  footer_fourth: Footer fourth
+  footer_bottom: Footer bottom

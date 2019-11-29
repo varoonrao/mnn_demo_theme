@@ -1,0 +1,72 @@
+{#
+/**
+ * @file
+ * Void's theme implementation to display a single page.
+ */
+#}
+
+{# {% set content_classes = [
+  'main__container',
+  page.left_sidebar and page.right_sidebar ? 'main__container--with-both-sidebar',
+  page.left_sidebar and page.right_sidebar is empty ? 'main__container--with-left-sidebar',
+  page.right_sidebar and page.left_sidebar is empty ? 'main__container--with-right-sidebar',
+  page.left_sidebar is empty and page.right_sidebar is empty ? 'main__container--without-sidebar'
+] %} #}
+
+{% set content_classes = [
+  'main__container']%}
+
+<div>
+  <header class="header" id="header" role="banner" aria-label="{{ 'Site header'|t }}">
+    <div class="header__branding">
+      <div class="branding">
+        <div class="branding__logo">
+          {{ page.branding }}
+        </div>
+        <div class="branding__navigation">
+          {{ page.main_navigation }}
+        </div>
+        <div class="nav__right">
+          {{ page.nav_right }}
+        </div>
+      </div>
+    </div>
+  </header>
+  {% if page.featured %}
+  <section class="featured" id="featured" role="complementary">
+    {{ page.featured }}
+  </section>
+  {% endif %}
+  <section class="main" id="main">
+    <div {{ content_attributes.addClass(content_classes) }}>
+      <main class="main__content" id="content" role="main">
+        <section class="main__content__section">
+          <a id="main-content" tabindex="-1"></a>
+          {{ page.content }}
+        </section>
+      </main>
+      {% if page.right_sidebar %}
+      <aside class="main__sidebar-second" id="sidebar-second" role="complementary">
+        {{ page.right_sidebar }}
+      </aside>
+      {% endif %}
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+    <div class="footer__main">
+      <div class="footer__main__container">
+        {{ page.footer_first }}
+        {{ page.footer_second }}
+        {{ page.footer_third }}
+        {{ page.footer_fourth }}
+      </div>
+    </div>
+    {% endif %}
+    {% if page.footer_bottom %}
+    <div class="footer__bottom">
+      {{ page.footer_bottom }}
+    </div>
+    {% endif %}
+  </footer>
+</div>
