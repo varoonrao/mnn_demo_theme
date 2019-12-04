@@ -1,0 +1,24 @@
+uuid: e1ae4097-c229-40e0-aca1-4a28f021149b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.photo_gallery
+  module:
+    - views
+  theme:
+    - mnn
+id: views_block__photo_gallery_block_1
+theme: mnn
+region: right_sidebar
+weight: -8
+provider: null
+plugin: 'views_block:photo_gallery-block_1'
+settings:
+  id: 'views_block:photo_gallery-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

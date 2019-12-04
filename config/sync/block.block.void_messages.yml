@@ -1,0 +1,22 @@
+uuid: f1723fcc-42e0-4faa-9de1-25daa6028c6c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - void
+_core:
+  default_config_hash: tX7uUD1wJAegSqgODqh2UgBhrb-wS56LlH__BEnTFC0
+id: void_messages
+theme: void
+region: content
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

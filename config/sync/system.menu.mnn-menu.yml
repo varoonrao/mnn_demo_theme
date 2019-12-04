@@ -1,0 +1,8 @@
+uuid: d751f5a0-18c2-4bb1-8dd1-a506dfac4ecf
+langcode: en
+status: true
+dependencies: {  }
+id: mnn-menu
+label: 'Mnn Menu'
+description: ''
+locked: false

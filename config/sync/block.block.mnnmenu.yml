@@ -1,0 +1,25 @@
+uuid: 2a457a37-79e4-47dc-a23e-446e97d327ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.mnn-menu
+  module:
+    - system
+  theme:
+    - mnn
+id: mnnmenu
+theme: mnn
+region: nav_right
+weight: 0
+provider: null
+plugin: 'system_menu_block:mnn-menu'
+settings:
+  id: 'system_menu_block:mnn-menu'
+  label: 'Mnn Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

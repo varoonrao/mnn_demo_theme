@@ -1,0 +1,22 @@
+uuid: cfbb17db-85c8-444c-84ac-7c75cbaa0fea
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mnn
+_core:
+  default_config_hash: tX7uUD1wJAegSqgODqh2UgBhrb-wS56LlH__BEnTFC0
+id: mnn_messages
+theme: mnn
+region: featured
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

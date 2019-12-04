@@ -1,0 +1,24 @@
+uuid: b507840c-b3a8-4270-b3b1-170c1cc4fb9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.front_page_content
+  module:
+    - views
+  theme:
+    - mnn
+id: views_block__front_page_content_block_1
+theme: mnn
+region: right_sidebar
+weight: -9
+provider: null
+plugin: 'views_block:front_page_content-block_1'
+settings:
+  id: 'views_block:front_page_content-block_1'
+  label: 'Trending On Mnn'
+  provider: views
+  label_display: visible
+  views_label: 'Trending On Mnn'
+  items_per_page: none
+visibility: {  }

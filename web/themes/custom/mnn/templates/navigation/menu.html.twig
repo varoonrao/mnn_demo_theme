@@ -30,7 +30,7 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('menu') }} onclick="toggle();">
+      <ul{{ attributes.addClass('menu') }}>
     {% else %}
       <ul class="sub-menu">
     {% endif %}
@@ -43,7 +43,7 @@
           item.in_active_trail ? 'menu-item--active-trail',
         ]
       %}
-      <li{{ item.attributes.addClass(classes) }}>
+      <li{{ item.attributes.addClass(classes) }} onclick="toggle();" id="menu_event">
         {{ link(item.title, item.url) }}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}

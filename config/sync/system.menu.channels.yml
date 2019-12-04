@@ -1,0 +1,8 @@
+uuid: 7d059537-2596-45c2-949c-0e35577261c1
+langcode: en
+status: true
+dependencies: {  }
+id: channels
+label: Channels
+description: ''
+locked: false

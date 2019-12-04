@@ -1,0 +1,21 @@
+uuid: 55ad2188-62a6-4370-9b92-c92fd99ef64a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_title
+    - node.type.gallery
+  module:
+    - text
+id: node.gallery.field_image_title
+field_name: field_image_title
+entity_type: node
+bundle: gallery
+label: 'Image Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

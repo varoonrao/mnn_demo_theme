@@ -5,7 +5,6 @@ package: Other
 core: 8.x
 libraries:
   - mnn/global-styling
-  - mnn/n
  
 base theme: classy
 #Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy

@@ -44,12 +44,10 @@
           <a id="main-content" tabindex="-1"></a>
           {{ page.content }}
         </section>
+        {% if page.right_sidebar %}
+        <div class="main__sidebar-second">{{ page.right_sidebar }}</div>   
+        {% endif %}
       </main>
-      {% if page.right_sidebar %}
-      <aside class="main__sidebar-second" id="sidebar-second" role="complementary">
-        {{ page.right_sidebar }}
-      </aside>
-      {% endif %}
     </div>
   </section>
   <footer class="footer" id="footer">

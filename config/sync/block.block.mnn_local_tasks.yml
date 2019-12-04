@@ -1,0 +1,22 @@
+uuid: ecdf9c2d-4286-424f-b188-db828d3919cb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mnn
+_core:
+  default_config_hash: rDpzgwS3oYbkDHuxMvXxqGCdvQ30SDwnMoD6J7zQt80
+id: mnn_local_tasks
+theme: mnn
+region: featured
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

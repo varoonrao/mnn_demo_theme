@@ -1,0 +1,22 @@
+uuid: dd7a33fc-fb5d-4edd-9b1c-989e3a25035a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mnn
+_core:
+  default_config_hash: ZwqJUFn-l8GQ_CV00tezDQpyJ1R3T2ReBnKmrmneoGQ
+id: mnn_breadcrumbs
+theme: mnn
+region: featured
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

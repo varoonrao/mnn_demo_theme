@@ -1,0 +1,24 @@
+uuid: 83f69727-8959-4ac8-9572-1efbff7f9a10
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.join_news_letters
+  module:
+    - views
+  theme:
+    - mnn
+id: views_block__join_news_letters_block_1
+theme: mnn
+region: right_sidebar
+weight: -7
+provider: null
+plugin: 'views_block:join_news_letters-block_1'
+settings:
+  id: 'views_block:join_news_letters-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

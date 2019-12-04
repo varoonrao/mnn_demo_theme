@@ -69,7 +69,7 @@
 .branding .branding__navigation {
   flex: 1 0 auto;
   margin: auto;
-  padding-left: 30px;
+  padding-left: 45px;
 
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
@@ -90,6 +90,10 @@
   /* position : relative; */
 }
 
+.branding__navigation ul li a{
+  /* pointer-events: none; */
+}
+
 .branding .branding__navigation li{
   z-index: 1000;
   padding-left: 10px;
@@ -97,7 +101,7 @@
 }
 
 .branding .branding__navigation li ul{
-  /* position: absolute; */
+  position: absolute;
   max-width:max-content;
   display: none;
   padding: 0px;
@@ -106,6 +110,7 @@
   border-radius: 3px;
   margin-top: 20px;
   width: 265px;
+  z-index: 1;
 }
 
 

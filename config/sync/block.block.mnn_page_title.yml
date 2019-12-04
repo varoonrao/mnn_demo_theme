@@ -1,0 +1,20 @@
+uuid: 69c26828-1665-4138-b88e-eb17befb3208
+langcode: en
+status: false
+dependencies:
+  theme:
+    - mnn
+_core:
+  default_config_hash: 6uA0wU_6Wn_hPWeirfNH2gDWpfJVZjuGVOm77-55fKw
+id: mnn_page_title
+theme: mnn
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

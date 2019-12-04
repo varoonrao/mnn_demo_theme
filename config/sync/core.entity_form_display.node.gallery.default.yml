@@ -1,0 +1,39 @@
+uuid: 81d05f1a-1c30-4d53-9a8b-9261c7285ae6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.field_image_title
+    - field.field.node.gallery.field_media
+    - node.type.gallery
+  module:
+    - media_library
+    - text
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  field_image_title:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_media:
+    type: media_library_widget
+    weight: 0
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true

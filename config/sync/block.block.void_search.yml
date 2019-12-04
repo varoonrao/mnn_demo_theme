@@ -1,0 +1,22 @@
+uuid: 455bafd4-9593-4495-9d03-a83e021e3bd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - void
+_core:
+  default_config_hash: wUjws1O4syNqskqobiTo952L13vsSqBm2DyicGhoJeY
+id: void_search
+theme: void
+region: left_sidebar
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,42 @@
+.container__gallery {
+    position: relative;
+    margin-left:5px;
+    margin-bottom: 10px;
+  }
+  
+  .container__gallery img {
+    display: block;
+    width: 317px;
+    height: 178px;
+  }
+  
+  .overlay__gallery {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: rgba(7,7,7,0.5);
+  }
+  
+  .container__gallery:hover .overlay__gallery {
+    opacity: 0;
+  }
+  .container__gallery:hover .text__gallery{
+    opacity:0;
+  }
+
+  .title__gallery {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

@@ -1,0 +1,22 @@
+uuid: 6c316808-ef7e-4957-a569-e86ce3ff0560
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - void
+_core:
+  default_config_hash: 6Z5sdlaTd4b5ycrS2W71IdBEEg6IlVTA4tG2-8bFqXI
+id: userlogin
+theme: void
+region: left_sidebar
+weight: -7
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: '0'
+visibility: {  }

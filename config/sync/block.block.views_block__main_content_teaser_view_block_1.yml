@@ -1,0 +1,24 @@
+uuid: 44ea5fd3-5e01-464e-9786-3958150d0617
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.main_content_teaser_view
+  module:
+    - views
+  theme:
+    - mnn
+id: views_block__main_content_teaser_view_block_1
+theme: mnn
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:main_content_teaser_view-block_1'
+settings:
+  id: 'views_block:main_content_teaser_view-block_1'
+  label: 'Read The Latest'
+  provider: views
+  label_display: visible
+  views_label: 'Read The Latest'
+  items_per_page: none
+visibility: {  }

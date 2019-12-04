@@ -22,8 +22,8 @@ a:focus {
 }
 
 p {
-  margin-bottom: 28px;
-  line-height: 1.5;
+  /* margin-bottom: 28px; */
+  line-height: 1.4;
 }
 
 h1,
@@ -38,9 +38,13 @@ h1,
 h2 {
   margin-bottom: 15px;
   font-family: var(--font-family-primary);
-  font-size: var(--font-size-h2);
+  /* font-size: var(--font-size-h2); */
+  font-size: medium;
   font-weight: var(--font-weight--bold);
   line-height: 1.25;
+  color:#348058;
+  font-family: 'Arimo';
+  text-transform: uppercase;
 }
 
 h3 {

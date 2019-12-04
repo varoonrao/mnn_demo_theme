@@ -1,0 +1,25 @@
+uuid: c3d640dd-4a4f-4ddd-864a-4f8b43457f1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-bottom-social-links
+  module:
+    - system
+  theme:
+    - mnn
+id: footerbottomsociallinks
+theme: mnn
+region: footer_bottom
+weight: -8
+provider: null
+plugin: 'system_menu_block:footer-bottom-social-links'
+settings:
+  id: 'system_menu_block:footer-bottom-social-links'
+  label: 'Footer Bottom Social Links'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

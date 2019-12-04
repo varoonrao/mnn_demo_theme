@@ -1,0 +1,8 @@
+uuid: 78eeb513-1759-4241-82e7-359d27d484bc
+langcode: en
+status: true
+dependencies: {  }
+id: mnn-tools
+label: 'MNN Tools'
+description: ''
+locked: false

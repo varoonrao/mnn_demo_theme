@@ -1,0 +1,20 @@
+uuid: 2ec91181-4e01-486d-b44f-cb4bd391a09b
+langcode: en
+status: false
+dependencies:
+  theme:
+    - mnn
+_core:
+  default_config_hash: eJA3a1PG567g5RKFMGD_KTT2jlgqmsOoKPgMh1XNEN8
+id: mnn_local_actions
+theme: mnn
+region: branding
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

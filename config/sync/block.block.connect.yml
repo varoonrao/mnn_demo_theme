@@ -1,0 +1,25 @@
+uuid: 403dec13-f665-4f48-b214-2b6b050863ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.connect
+  module:
+    - system
+  theme:
+    - mnn
+id: connect
+theme: mnn
+region: footer_third
+weight: 0
+provider: null
+plugin: 'system_menu_block:connect'
+settings:
+  id: 'system_menu_block:connect'
+  label: Connect
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

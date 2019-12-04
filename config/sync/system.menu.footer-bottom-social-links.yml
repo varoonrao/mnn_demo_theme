@@ -1,0 +1,8 @@
+uuid: 55af1769-94f2-4045-8abc-6c9c740891b8
+langcode: en
+status: true
+dependencies: {  }
+id: footer-bottom-social-links
+label: 'Footer Bottom Social Links'
+description: ''
+locked: false

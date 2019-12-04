@@ -12,6 +12,9 @@ global-styling:
       css/layout/featured.css : {}
       css/components/menu.css : {}
       css/base/typography.css : {}
+      css/layout/photo_gallery.css : {}
+      css/layout/featured.css : {}
+      css/layout/newsletter.css : {}
 
    js:
      #js/your_js.js : {}

@@ -1,0 +1,40 @@
+.newsletter__container{
+    width: 317px;
+    height: 178px;
+    background: url("../../images/newsletter-rail-background.png");
+    margin-left: 5px;
+}
+
+.newsletter__heading{
+    padding-top: 75px;
+    padding-left: 5px;
+    font-family: 'Arial';
+}
+
+.newsletter__email{
+    font-family: 'Open Sans';
+    height: 25px;
+    width: 240px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.newsletter__email::placeholder{
+    font-size: 14px;
+}
+.newsletter__button{
+    background-color: #2C91CF;
+    font-family: 'Open sans';
+    color: white;
+    height: 30px;
+    border:none;
+    border-radius: 4px;
+    width: 50px;
+}
+
+.newsletter__link{
+    padding-left: 10px;
+    font-size: 14px;
+    text-decoration: underline;
+    padding-top: 15px;
+}
